@@ -9,12 +9,16 @@ Step 2 : Open / Edit Angular Project search for .angular-cli.json (it will be lo
 
 Step 3 : Search Tag   "scripts": [], and give your custom js path here 
 Example : "scripts" : ["assets/externaljs/sample.js"] 
+
 --tips 1 :  By default your current directory path will be angularproject/src/
+
 --tips 2 : U can place multiple js files path here by using comma separator as "scripts" : ["assets/externaljs/sample.js","assets/externaljs/sample2.js","assets/externaljs/sample3.js"] 
 
 step 4 : I am considering that you have already created components in your angular project.
 Open / Edit your app.component.ts file and declare variable as 
-declare var myjsfunction: any;
+
+"declare var myjsfunction: any;"
+
 here myjsfunction will be you custom js / jq function which is defined in your custom js/jq file.
 
 step 5 : Once you declare var myjsfunction : any
