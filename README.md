@@ -3,7 +3,7 @@ Angular 4 Include External Javascript /JQuery
 
 For including your custom javascript / jquery files in angular project follow below given steps.
 
-Step 1 : create your custom js file and place it in angularproject\src\assets\externaljs\sample.js
+Step 1 : create your custom js file labelled as 'sample.js' and place it in angularproject\src\assets\externaljs\sample.js
 
 Step 2 : Open / Edit Angular Project search for .angular-cli.json (it will be located in root dir)
 
